@@ -22,4 +22,4 @@ jobs:
       ## to install python on the  Ubuntu based environment 
       - uses: actions/setup-python@v2
       ## Executes the `python --version` command
-      - run: python --version
+      - run: python3 ../../app.py
